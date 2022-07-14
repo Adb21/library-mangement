@@ -57,12 +57,13 @@ class LoginAPIView(generics.GenericAPIView):
             tokens = getTokens(request.data['email'])
             return Response(
                 {
+                    "Success":1,
                     "Message":"User Login Successfully",
                     "tokens":tokens
 
                 },status=status.HTTP_202_ACCEPTED
             )
-        return Response({"Error":serializer.errors},status=status.HTTP_400_BAD_REQUEST)
+        return Response({"Success":0,"Error":serializer.errors},status=status.HTTP_400_BAD_REQUEST)
 
 
 
