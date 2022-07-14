@@ -4,7 +4,7 @@
 - Authentication : JWT
 
 ## Requirnemts 
-* install python packages from requirnemtns.txt ( pip install -r requirements.txt )
+* install python packages from requirements.txt ( pip install -r requirements.txt )
 * create new schema in MySQL DB named library either using MYSQL CLI or workbench
 * update settings.py file with user and password of MySQL DB in DATABASE section.
   ![image](https://user-images.githubusercontent.com/22220558/178965694-1e96eb06-d5de-4366-9f36-bba307e3afcf.png)
