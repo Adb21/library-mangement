@@ -33,7 +33,8 @@ User types : Admin and Student
   * URL : http://127.0.0.1:8000/api/profiles/login
   * Request Type : POST
   * Input data : email | password 
-  * Reponse : Tokens ( refresh and access )
+  * Reponse : Tokens ( refresh and access ) 
+  * Toek Validity : Access token = 30 mins | refresh toekn = 1 day
   
 * Logout : 
   * URL : http://127.0.0.1:8000/api/profiles/logout
