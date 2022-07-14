@@ -4,6 +4,7 @@
 - Authentication : JWT
 
 ## Requirnemts 
+* create a virtual env and activate it
 * install python packages from requirements.txt ( pip install -r requirements.txt )
 * create new schema in MySQL DB named library either using MYSQL CLI or workbench
 * update settings.py file with user and password of MySQL DB in DATABASE section.
