@@ -16,7 +16,7 @@
 * go to clonned folder then run bellow command and it will run server at http://127.0.0.1:8000/
   * python manage.py runserver 
 
-## API endpoints amd functionality 
+## API endpoints and functionality 
 User types : Admin and Student
 ### Account related APIs
 * Register Admin : 
@@ -67,3 +67,14 @@ User types : Admin and Student
 * Delete single Book
   * URL : http://127.0.0.1:8000/api/books/< id >
   * Request Type : DEL
+
+*** Extra Features
+* Pagination and Filters
+  * Default page size is 5. can change it in settings.py usner REST_FRAMEWORK section.
+  * Filters on category and language
+  * search filter and orderby on Title and Author
+  * Swagger UI for API endpoints and scema 
+    * Swagger UI URL : http://127.0.0.1:8000/
+    * schema URL :  http://127.0.0.1:8000/api/schema/
+ * CORS headers also added
+  * set on CORS_ALLOW_ALL_ORIGINS = True
