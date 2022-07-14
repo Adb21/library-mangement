@@ -68,7 +68,7 @@ User types : Admin and Student
   * URL : http://127.0.0.1:8000/api/books/< id >
   * Request Type : DEL
 
-*** Extra Features
+### Extra Features
 * Pagination and Filters
   * Default page size is 5. can change it in settings.py usner REST_FRAMEWORK section.
   * Filters on category and language
