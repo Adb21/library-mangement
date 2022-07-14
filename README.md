@@ -77,4 +77,4 @@ User types : Admin and Student
     * Swagger UI URL : http://127.0.0.1:8000/
     * schema URL :  http://127.0.0.1:8000/api/schema/
  * CORS headers also added
-  * set on CORS_ALLOW_ALL_ORIGINS = True
+    * set on CORS_ALLOW_ALL_ORIGINS = True
